@@ -1,10 +1,13 @@
 # Music City Marathons Webscraping Project
-Nashville Rock-and-Roll Marathon was used in a prior lesson at when learning Excel.   
+
+
+Nashville Rock-and-Roll Marathon was used in a prior lesson at when learning Excel. In this new project we used webscraping to obtain the data, and were given a brief time to work with the scrapted data in Python.  
+
 To approach this, my goal was to try and recreate the same chart I had created in Excel. I was unable to accomplish this in the brief time alotted for EDA (3 hours), but learned a lot in the process!
 
 <b> What I Learned </b>
 - I was successful in:
-    - Importing csv files that I had scraped, using pandas to convert to datetime, then to timedelta
+    - Importing csv files that I had scraped using BeautifulSoup, using Pandas to convert to datetime, then to timedelta
     - Wrote thorough pseudo-code at beginning of second eda notebook
     - Dropped all rows of runners who didn't finish (with Time as 00:00:00)
     - Other basic EDA functions
@@ -17,14 +20,13 @@ To approach this, my goal was to try and recreate the same chart I had created i
 
 ### <b>Chart from earlier Excel project - "Music City Marathons Presentation"</b>
 
-![excel_chart](assets/chart_from_excel_marathon_project.png)
+![excel_chart](\assets\chart_from_excel_marathon_project.png)
 
 <br>
 
 <br>
 
-# <b>From original Readme file, from class lesson</b>
-### webscraping marathon data
+# <b>Class Readme instructions</b>
 
 The data for the Nashville Rock-and-Roll Marathon that you worked with in Excel was scraped from the `www.runrockroll.com` race results page. Now it's **your turn** to scrape the data from the website! The number of pages of results *for each race* and the base URL that you will build out is provided below.
 
