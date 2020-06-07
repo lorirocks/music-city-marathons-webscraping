@@ -20,7 +20,7 @@ To approach this, my goal was to try and recreate the same chart I had created i
 
 ### <b>Chart from earlier Excel project - "Music City Marathons Presentation"</b>
 
-![excel_chart](/assets/chart_from_excel_marathon_project.png)
+![excel_chart](assets/chart_from_excel_marathon_project.png)
 
 <br>
 
